@@ -18,7 +18,7 @@ while true; do
     case "$choice" in
         1)
             echo "🔧 Đang tiến hành cài đặt chuyển tiếp Realm..."
-            bash -c "$(wget -qO- https://github.com/tanlaotaa/ct/blob/a21be83f7c4e8455dfbb46c32208143e3760a09e/tlt)"
+            bash -c "$(wget -qO- https://raw.githubusercontent.com/tanlaotaa/ct/refs/heads/main/tlt)"
             echo "✅ Cài đặt hoàn tất."
             read -p "Nhấn Enter để quay lại menu..."
             ;;
